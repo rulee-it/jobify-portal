@@ -1,0 +1,45 @@
+.jobs-container {
+  padding: 40px;
+  background: #640303;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.jobs-container h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.jobs-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.job-card {
+  background: #463575;
+  border: 2px solid rgb(230, 207, 207);
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  transition: transform 0.3s;
+}
+
+.job-card:hover {
+  transform: scale(1.05);
+}
+
+.job-card button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: rgb(124, 22, 107);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.job-card button:hover {
+  background: #a52a2a;
+}

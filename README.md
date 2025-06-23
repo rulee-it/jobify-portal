@@ -1,86 +1,70 @@
-# jobify-portal
-Jobify Portal is a simple, modern job portal web application built with React. Users can browse available jobs, apply, and receive confirmation — all with a clean and intuitive interface.
+# Getting Started with Create React App
 
-🚀 Live Demo
-👉 Live Demo Link (Replace # with your deployed link, e.g., Netlify, Vercel, or GitHub Pages URL)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-⚙️ Tech Stack
-Frontend:
-React
-React Router DOM
-JavaScript (ES6+)
-CSS
+## Available Scripts
 
-Build Tool:
-react-scripts (Create React App)
+In the project directory, you can run:
 
-📁 Project Structure
-php
-Copy
-Edit
-jobify-portal/
- ├── public/           # Static files (index.html, favicon, etc.)
- ├── src/              # React components & pages
- │   ├── App.js        # Main app component
- │   ├── index.js      # Entry point
- │   ├── JobsPage.js   # Jobs listing page
- │   ├── JobFormPage.js# Apply for a job form
- │   ├── LoginPage.js  # Login page
- │   ├── ConfirmationPage.js # Confirmation after apply
- │   ├── *.css         # Related CSS files
- ├── package.json      # Project metadata and dependencies
- ├── .gitignore        # Git ignore rules
- ├── README.md         # Project description
-✅ What to push to the repository:
+### `npm start`
 
-public/
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-src/
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-.gitignore
+### `npm test`
 
-package.json
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-package-lock.json (optional but recommended for consistent installs)
+### `npm run build`
 
-README.md
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-No need to push the node_modules folder — it will be installed automatically when someone clones the repo and runs npm install.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-📸 Screenshots
-Login Page:
-![image](https://github.com/user-attachments/assets/5cefe4bc-d688-49ac-bff7-c656aeb6756d)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
-Job Listings:
-![image](https://github.com/user-attachments/assets/ecc2afc2-c894-4612-b9fe-f9680978d291)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Apply Form:
-![image](https://github.com/user-attachments/assets/be5fd3ef-03cb-45d9-8adb-e8eb03852b2e)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Confirmation:
-![image](https://github.com/user-attachments/assets/eb6dc083-35e7-4e6e-b7b5-1f41b2c73cc9)
+## Learn More
 
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-✅ How to Run Locally
-bash
-Copy
-Edit
-# Clone the repository
-git clone https://github.com/rulee-it/jobify-portal.git
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-# Navigate to project folder
-cd jobify-portal
+### Code Splitting
 
-# Install dependencies
-npm install
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-# Run the app
-npm start
+### Analyzing the Bundle Size
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-This project is a simple showcase of React fundamentals, routing, and component-based design. Feel free to fork, extend, or contribute!
+### Making a Progressive Web App
 
-Made with ❤️ by Ashmit Naik
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
