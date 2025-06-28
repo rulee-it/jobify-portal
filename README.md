@@ -2,7 +2,7 @@
 
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open (https://jobify-portal-lake.vercel.app/) to view it in your browser.
 
 Jobify Portal is a simple, modern job portal web application built with React. Users can browse available jobs, apply, and receive confirmation — all with a clean and intuitive interface.
 
